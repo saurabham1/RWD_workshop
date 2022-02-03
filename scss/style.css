@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  color: #121212;
+  font-weight: 400;
+  background: #1ff142;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3rem;
+  background: #8bb68a;
+}
+
+.footer-company h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+
+.footer-company p {
+  font-size: 1.8rem;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 30rem;
+  font-size: large;
+}
+
+@media all and (max-width: 100rem) {
+  .header {
+    background-image: url(../images/shoe0.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.header-loca {
+  color: #4C0027;
+  text-decoration: none;
+}
+
+.header-nav-link {
+  color: #121212;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.header-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 3.2rem;
+}
+
+.main-sections {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background: #52c97a;
+}
+
+@media (max-width: 37.5em) {
+  .main-sections {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.aside {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  max-width: 130rem;
+}
+
+.aside-nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.aside-headings {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.aside-para {
+  font-size: 1.8rem;
+}
+
+.aside-nav {
+  margin-top: 3rem;
+}
+
+.sport {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 6rem;
+}
+
+.sport-image-1, .sport-image-2 {
+  width: 40rem;
+  height: 40rem;
+  margin-top: 3rem;
+}
+
+.sport-shop {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.sport-shop h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.sport-shop p {
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=style.css.map */
